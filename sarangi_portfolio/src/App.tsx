@@ -6,6 +6,7 @@ import Experience from "./components/Experience";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Loader from "./components/Loader";
+import Skills from "./components/Skills";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Navbar />
       <About />
       <Experience />
+      <Skills />
       <Education />
       <Contact />
       <Footer />

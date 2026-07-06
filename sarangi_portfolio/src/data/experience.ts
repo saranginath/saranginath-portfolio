@@ -28,7 +28,7 @@ export const experience: Experience[] = [
         company: "Infosys Limited, Bangalore",
         duration: "May 2022 – Nov 2025",
         description: [
-            "Developed UI components and GraphQL APIs for an e-commerce application using React and Node.js.",
+            "Developed UI components and GraphQL APIs for ULTA BEAUTY an e-commerce application using React and Node.js.",
             "Integrated Amplience CMS and backend services to deliver dynamic content.",
             "Built optimized response objects using Node.js and GraphQL for frontend consumption.",
             "Implemented caching strategies using Redis, CDN, and query optimization to improve performance.",

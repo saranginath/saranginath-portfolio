@@ -53,7 +53,7 @@ function Experience() {
                             </h3>
 
                             <div className="flex justify-between mt-1 text-sm">
-                                <span className="text-green-400">{exp.company}</span>
+                                <span className="text-sky-400">{exp.company}</span>
                                 <span className="border rounded-lg text-gray-400 p-1">{exp.duration}</span>
                             </div>
 
