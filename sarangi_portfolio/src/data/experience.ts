@@ -1,4 +1,10 @@
-export const experience = [
+export interface Experience {
+    role: string;
+    company: string;
+    duration: string;
+    description: string[];
+}
+export const experience: Experience[] = [
     {
         role: "Full-Stack Developer (Freelance Project)",
         company: "Kindora / Suneflower Organization",
