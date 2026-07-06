@@ -26,7 +26,7 @@ function Contact() {
             </h1 >
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 ">
-                {/* Left Side */}
+
                 <div className="space-y-5">
                     <h2 className="text-2xl font-semibold">Get In Touch</h2>
 
@@ -38,6 +38,7 @@ function Contact() {
                         <FaEnvelope className="text-sky-500" />
                         <a
                             href="mailto:saranginath22@gmail.com"
+                            className=" hover:text-sky-500"
 
                         >
                             Saranginath22@gmail.com
@@ -51,6 +52,7 @@ function Contact() {
                             href="https://www.linkedin.com/in/sarangi-nath/"
                             target="_blank"
                             rel="noopener noreferrer"
+                            className="hover:text-sky-500"
 
                         >
                             https://www.linkedin.com/in/sarangi-nath/
@@ -62,7 +64,7 @@ function Contact() {
                         <a
                             href="https://github.com/saranginath"
                             target="_blank"
-                            rel="noopener noreferrer"
+                            rel="noopener noreferrer" className="hover:text-sky-500"
                         >
                             https://github.com/saranginath
                         </a>

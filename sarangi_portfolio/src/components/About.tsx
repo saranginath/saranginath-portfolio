@@ -1,11 +1,11 @@
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
-import saraninath from "../assets/saranginathcartoon.png";
+import saraninath from "../assets/saranginath.jpeg";
 import { Typewriter } from "react-simple-typewriter";
 import { about } from "../data/about";
 import { motion } from "framer-motion"
 function About() {
     return (
-        <section id="about" className="max-w-7xl mx-auto px-6 py-16">
+        <section id="about" className="max-w-7xl mx-auto px-6 py-8">
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div className="space-y-6">
