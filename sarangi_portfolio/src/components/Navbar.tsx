@@ -12,6 +12,7 @@ function Navbar() {
                 <div className="hidden md:flex gap-7 items-center">
                     <a href="#about">About</a>
                     <a href="#experience">Experience</a>
+                    <a href="#skills">Skills</a>
                     <a href="#education">Education</a>
                     <a href="#contact">Contact</a>
                     <a
@@ -34,6 +35,7 @@ function Navbar() {
                     <div className="md:hidden flex flex-col gap-4 px-8 pb-4">
                         <a onClick={() => setOpen(false)} href="#about">About</a>
                         <a href="#experience" onClick={() => setOpen(false)}>Experience</a>
+                        <a href="#skills" onClick={() => setOpen(false)}>Skills</a>
                         <a href="#education">Education</a>
                         <a onClick={() => setOpen(false)} href="#contact" className="border w-fit p-2 rounded-lg">
                             Let's Contact

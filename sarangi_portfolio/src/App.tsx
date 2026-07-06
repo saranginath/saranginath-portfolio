@@ -9,6 +9,7 @@ import Loader from "./components/Loader";
 import Skills from "./components/Skills";
 
 
+
 function App() {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
@@ -18,7 +19,11 @@ function App() {
     return () => clearInterval(timer);
   }, [])
   if (loading) {
-    return <Loader />
+    return (
+      <div className="min-h-screen bg-white text-black dark:bg-black/90 dark:text-white transition-colors duration-300">
+        <Loader />
+      </div>
+    )
   }
   return (
     <div className="min-h-screen bg-white text-black dark:bg-black/90 dark:text-white transition-colors duration-300">

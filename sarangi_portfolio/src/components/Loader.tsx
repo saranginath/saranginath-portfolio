@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 function Loader() {
     return (
-        <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black text-white gap-9">
+        <div className="fixed inset-0 z-50 flex flex-col items-center justify-center gap-9">
             <motion.h1
                 animate={{ rotate: 360 }}
                 transition={{
