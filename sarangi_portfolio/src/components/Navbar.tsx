@@ -16,7 +16,7 @@ function Navbar() {
                     <a href="#education">Education</a>
                     <a href="#contact">Contact</a>
                     <a
-                        href="" className="border rounded p-2"
+                        href="https://drive.google.com/file/d/1F2ok13tp9GgQ-S6or2PNtWPJB9CFYIfg/view" className="border rounded p-2 " target="_blank"
                     >
                         Resume
                     </a>
@@ -32,7 +32,7 @@ function Navbar() {
 
             {
                 open && (
-                    <div className="md:hidden flex flex-col gap-4 px-8 pb-4">
+                    <div className="md:hidden flex flex-col gap-4 items-center justify-center py-6">
                         <a onClick={() => setOpen(false)} href="#about">About</a>
                         <a href="#experience" onClick={() => setOpen(false)}>Experience</a>
                         <a href="#skills" onClick={() => setOpen(false)}>Skills</a>

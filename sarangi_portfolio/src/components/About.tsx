@@ -27,7 +27,7 @@ function About() {
                         </span>
                     </h2>
 
-                    <p className=" text-gray-400 leading-7">
+                    <p className=" text-lg leading-8 whitespace-pre-line text-justify">
                         {about}
                     </p>
                 </div>
@@ -74,7 +74,7 @@ function About() {
                 </div>
 
             </div>
-        </section>
+        </section >
     );
 }
 

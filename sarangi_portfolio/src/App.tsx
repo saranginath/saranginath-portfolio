@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Loader from "./components/Loader";
 import Skills from "./components/Skills";
+import { Toaster } from "react-hot-toast"
 
 
 
@@ -27,6 +28,12 @@ function App() {
   }
   return (
     <div className="min-h-screen bg-white text-black dark:bg-black/90 dark:text-white transition-colors duration-300">
+      <Toaster
+        position="top-right"
+        toastOptions={{
+          duration: 3000,
+        }}
+      />
       <Navbar />
       <About />
       <Experience />
