@@ -16,7 +16,7 @@ function Navbar() {
                     <a href="#education">Education</a>
                     <a href="#contact">Contact</a>
                     <a
-                        href="https://drive.google.com/file/d/1F2ok13tp9GgQ-S6or2PNtWPJB9CFYIfg/view" className="border rounded p-2 " target="_blank"
+                        href="https://drive.google.com/file/d/1F2ok13tp9GgQ-S6or2PNtWPJB9CFYIfg/view" className="border rounded p-2 hover:bg-blue-500" target="_blank"
                     >
                         Resume
                     </a>
@@ -37,6 +37,11 @@ function Navbar() {
                         <a href="#experience" onClick={() => setOpen(false)}>Experience</a>
                         <a href="#skills" onClick={() => setOpen(false)}>Skills</a>
                         <a href="#education">Education</a>
+                        <a
+                            href="https://drive.google.com/file/d/1F2ok13tp9GgQ-S6or2PNtWPJB9CFYIfg/view" className="border rounded-lg  p-2 " target="_blank"
+                        >
+                            Resume
+                        </a>
                         <a onClick={() => setOpen(false)} href="#contact" className="border w-fit p-2 rounded-lg">
                             Let's Contact
                         </a>
