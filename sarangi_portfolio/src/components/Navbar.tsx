@@ -36,7 +36,7 @@ function Navbar() {
                         <a onClick={() => setOpen(false)} href="#about">About</a>
                         <a href="#experience" onClick={() => setOpen(false)}>Experience</a>
                         <a href="#skills" onClick={() => setOpen(false)}>Skills</a>
-                        <a href="#education">Education</a>
+                        <a href="#education" onClick={() => setOpen(false)}>Education</a>
                         <a
                             href="https://drive.google.com/file/d/1F2ok13tp9GgQ-S6or2PNtWPJB9CFYIfg/view" className="border rounded-lg  p-2 " target="_blank"
                         >
